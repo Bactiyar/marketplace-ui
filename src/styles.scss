@@ -1,2 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/scss/bootstrap";
+:root {
+  --cyan: #dcf2f1;
+  --cyan-blue: #7fc7d9;
+  --tealish-blue: #365486;
+  --haiti: #0f1035;
+  --dawn-pink: #f0ece5;
+  --grey: #d9ddde;
+}
+
+// Then import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  background-color: var(--grey);
+}
